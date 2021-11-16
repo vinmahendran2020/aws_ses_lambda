@@ -1,0 +1,18 @@
+{
+  "name": "investorAddAddresses",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "zip -r build.zip index.js node_modules"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "@aws-sdk/client-guardduty": "^3.19.0",
+    "@aws-sdk/client-ses": "^3.19.0",
+    "mimemessage": "^1.0.5",
+    "moment": "^2.29.1"
+  }
+}
